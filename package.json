@@ -1,0 +1,30 @@
+{
+  "name": "test-nodejs-heroku",
+  "version": "0.0.1",
+  "description": "test deploy nodejs+mysql on cloud ",
+  "main": "main.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bohdanhudoba/test-nodejs-heroku.git"
+  },
+  "keywords": [
+    "heroku",
+    "mysql",
+    "nodejs"
+  ],
+  "author": "bohdan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bohdanhudoba/test-nodejs-heroku/issues"
+  },
+  "homepage": "https://github.com/bohdanhudoba/test-nodejs-heroku#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "multer": "^1.3.0"
+  }
+}
